@@ -190,3 +190,18 @@
   </div>
 </body>
 </html>
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+
+<script>
+var gitment = new Gitment({
+  owner: 'scienceluo',
+  repo: 'Comments',
+  oauth: {
+    client_id: '267321c79e5d6855136c',
+    client_secret: 'efbf1a4927492dad913f8ad35ccf3946bf3fa2a6',
+  },
+})
+gitment.render('container')
+</script>
