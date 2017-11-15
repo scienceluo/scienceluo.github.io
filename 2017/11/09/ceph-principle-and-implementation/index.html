@@ -211,14 +211,27 @@
   
   
   
-  
-  
-  
 
   
 
   
 
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://scienceluo.github.io/2017/11/09/ceph-principle-and-implementation/",
+  owner: 'scienceluo',
+  repo: 'comments',
+  oauth: {
+    client_id: '1110604194310c12560c',
+    client_secret: 'b46398d6acd43f047109bf95d1bf60e751bd49f3',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
   
 
 
